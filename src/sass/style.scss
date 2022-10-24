@@ -5,9 +5,15 @@
 }
 
 .container {
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 }
+
+@import 'blocks/footer';
+@import 'blocks/reviews';
+@import'blocks/catalog';
+@import 'blocks/carousel';
 @import 'blocks/forms';
 @import 'blocks/consultation';
 @import 'blocks/titles';
